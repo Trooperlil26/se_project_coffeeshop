@@ -82,6 +82,7 @@
           <ul class="recipes__videos">
             <li>
               <iframe
+                class="video__iframe"
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=_RfBZRps9X_M5Vas"
@@ -97,6 +98,7 @@
             </li>
             <li>
               <iframe
+                class="video__iframe"
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=iup63cEzCOU0eorV"
@@ -112,7 +114,64 @@
             </li>
           </ul>
         </section>
-        <section id="reservation" class="reservation"></section>
+        <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form form">
+            <form class="form__fieldset">
+              <label for="name" class="form__label"
+                >Name*
+                <input
+                  class="form__input"
+                  type="text"
+                  id="name"
+                  placeholder="Name Surname"
+                  required
+                />
+              </label>
+              <label for="number-of-guests" class="form__label"
+                >Number of guests*
+                <input
+                  class="form__input"
+                  type="number"
+                  id="nummer-of-guests"
+                  placeholder="1-8"
+                  min="1"
+                  max="8"
+                  required
+                />
+              </label>
+              <label for="Date" class="form__label"
+                >Date & time*
+                <input
+                  class="form__input"
+                  type="datetime-local"
+                  id="date"
+                  required
+                />
+              </label>
+              <label for="email" class="form__label"
+                >Your email*
+                <input
+                  class="form__input"
+                  type="email"
+                  id="email"
+                  placeholder="email@email.com"
+                  required
+                />
+              </label>
+              <button class="form__button">Book a table</button>
+              <label for="checkbox" class="form__label"
+                >I agree with the terms of use
+                <input
+                  class="form__input"
+                  type="checkbox"
+                  id="checkbox"
+                  required
+                />
+              </label>
+            </form>
+          </form>
+        </section>
         <section id="menu" class="menu"></section>
         <section id="recipe" class="about"></section>
       </main>
