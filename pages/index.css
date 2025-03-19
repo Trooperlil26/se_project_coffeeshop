@@ -155,7 +155,12 @@
   justify-content: space-between;
 }
 
-.video__iframe {
+<<<<<<< HEAD
+.recipes__iframe {
+=======
+.recipes__iframe {
+  border: none;
+>>>>>>> origin
   top: 0;
   left: 0;
   bottom: 0;
