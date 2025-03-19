@@ -119,7 +119,7 @@
         <section id="reservation" class="reservation">
           <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form form">
-            <form class="form__fieldset">
+            <fieldset class="form__fieldset">
               <label for="name" class="form__label"
                 >Name*
                 <input
@@ -161,17 +161,17 @@
                   required
                 />
               </label>
-              <button class="form__button">Book a table</button>
-              <label for="checkbox" class="form__label"
-                >I agree with the terms of use
-                <input
-                  class="form__input"
-                  type="checkbox"
-                  id="checkbox"
-                  required
-                />
-              </label>
-            </form>
+            </fieldset>
+            <button class="form__button">Book a table</button>
+            <label for="checkbox" class="form__label form__label_type_checkbox">
+              <input
+                class="form__checkbox"
+                type="checkbox"
+                id="checkbox"
+                required
+              />
+              I agree with the terms of use
+            </label>
           </form>
         </section>
         <section id="menu" class="menu"></section>
