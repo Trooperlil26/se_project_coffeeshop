@@ -1,0 +1,27 @@
+.card {
+  width: 540px;
+}
+
+.card__title {
+  margin: 0 0 32px;
+}
+
+.card__list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.card__list-item {
+  margin: 0 0 16px;
+  display: flex;
+  gap: 10px;
+}
+
+.card__list-divider {
+  flex-grow: 1;
+  border-bottom: 1px solid #000;
+}
+
+.card__list-item:last-of-type {
+  margin: 0;
+}
