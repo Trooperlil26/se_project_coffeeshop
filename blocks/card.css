@@ -1,12 +1,12 @@
 .card {
   width: 540px;
-  font-size: 20px;
   line-height: 30px;
 }
 
 .card__title {
   margin: 0 0 32px;
   font-size: 20px;
+  line-height: 30px;
 }
 
 .card__list {
